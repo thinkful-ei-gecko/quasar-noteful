@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.App > div {
+  flex: 5 1 auto;
+}
+
+header {
+  border: 2px solid red;
+}
+
+.main {
+  border: 2px solid green;
+}
+
+.sidebar {
+  flex: 1 1 auto;
+  border: 2px solid blue;
+}
+
+.folder {
+  background-color: black;
+  color: red;
+}
+
+.folder--active {
+  background-color: red;
+  color: black;
+}
+
+.folder > a:hover {
+  color: white;
+}
+
+.folder > a:visited {
+  color: white;
+}
